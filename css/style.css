@@ -19,6 +19,13 @@ header {
   min-height: 30px;
   border-bottom: rgb(255, 0, 0) 3px solid;
 }
+.dark{
+    padding:15px; 
+    background:#35424e ;
+    color:#ffffff; 
+    margin-top: 10px;
+    margin-bottom:10px; 
+}
 .buntton_1{
     height: 38px;
     background-color: #e8498d;
@@ -112,6 +119,18 @@ header li:hover {
     height: 120px; 
 }
 
+/*asidebar*/
+aside#sidebar{
+    float:right; 
+    width:30%; 
+    margin-top:10px ;
+}
+/*article*/
+article#main-col{
+    float: left;
+    width: 65%;
+    margin-top: 10px ;
+}
 footer{
     margin: 20px;
     padding:20px;
